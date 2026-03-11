@@ -25,7 +25,7 @@
 ### Задание 1
 
 ![Скриншот 1](https://github.com/YurtaevaSofia/hw-02/blob/main/img/img1.png) 
-
+'''
 1. Установка PostgreSQL
 sudo apt updat
 sudo apt install postgresql -y
@@ -50,7 +50,7 @@ sudo nano /etc/zabbix/zabbix_server.conf
 7. Запуск сервисов и добавление в автозагрузку
 sudo systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
-
+'''
 ---
 
 ### Задание 2
@@ -59,6 +59,7 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ![Скриншот 3](https://github.com/YurtaevaSofia/hw-02/blob/main/img/img3.png) 
 ![Скриншот 4](https://github.com/YurtaevaSofia/hw-02/blob/main/img/img4.png) 
 
+'''
 Использованные команды 
 sudo systemctl restart zabbix-server
 sudo systemctl status zabbix-server
@@ -73,7 +74,7 @@ sudo ss -tulpn | grep 1005
 ps aux | grep zabbix_agentd
 zabbix_get -s 127.0.0.1 -p 10050 -k agent.ping
 zabbix_get -s 127.0.0.1 -p 10052 -k agent.ping
-
+'''
 
 ---
 
