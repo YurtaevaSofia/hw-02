@@ -59,8 +59,9 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ![Скриншот 3](https://github.com/YurtaevaSofia/hw-02/blob/main/img/img3.png) 
 ![Скриншот 4](https://github.com/YurtaevaSofia/hw-02/blob/main/img/img4.png) 
 
-```
+
 **Использованные команды**
+```
 sudo systemctl restart zabbix-server
 sudo systemctl status zabbix-server
 sudo tail -30 /var/log/zabbix/zabbix_server.log
